@@ -2,8 +2,6 @@
   <img src="https://imgur.com/0quBsiH.png" title="source: imgur.com" />
 </div>
 
-https://imgur.com/0quBsiH.png
-
 ## 🧪 Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
@@ -13,12 +11,19 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
   
   <li>CSS</li>
   
+  <li>Bootstrap</li>
+  
   <li>JavaScript</li>
+  
+  <li>PHP</li>
+
+  <li>MySQL</li>
+  
 </ul>
 
 ## 💻 Projeto 
-A calculadora de IMC calcula o índice de Massa Corporal de uma pessoa, que serve para avaliar se a pessoa está dentro do seu peso ideal em relação à altura.
+A RP Viagens é um sistema de gerenciamento de viagens para a empresa RP Info Sistemas. O projeto foi desenvolvido em equipe, de quatro pessoas, como projeto integrador do programa de aprendizagem do SENAC-PR, a fim de conclusão do curso de desenvolvimento de sistemas.
 
 ## 🔗 Link
 
-<li><a href="https://calculadoraimcdg.vercel.app">Clique aqui</a></li>
+<li><a href="http://www.rpviagens.epizy.com">Clique aqui</a></li>

@@ -1,8 +1,9 @@
 <div>
-  <img src="https://imgur.com/LXvQkDw.png" title="source: imgur.com" />
+  <img src="https://imgur.com/0quBsiH.png" title="source: imgur.com" />
 </div>
 
-https://imgur.com/LXvQkDw.png
+https://imgur.com/0quBsiH.png
+
 ## 🧪 Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:

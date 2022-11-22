@@ -1,5 +1,5 @@
 <div>
-  <img src="https://imgur.com/XsNIKVJ" title="source: imgur.com" />
+  <img src="https://imgur.com/XsNIKVJ.png" title="source: imgur.com" />
 </div>
 
 ## 🧪 Tecnologias

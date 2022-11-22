@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.background {
+  background-color: white;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: url('/assets/imgs/linhasBack.png');
+  margin-top: 7rem;
+}
+
+.titulo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  visibility: hidden;
+  font-weight: bold;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: flex-start;
+  max-height: 100vh;
+  overflow-x: hidden;
+}
+
+.cards-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 100vw !important;
+  align-items: center;
+  justify-content: center;
+  margin-left: 5rem;
+  margin-right: 5rem;
+
+  margin-bottom: 5rem;
+  max-height: 80vh;
+  color: #353535 !important;
+  visibility: hidden;
+  transition: all 1s linear;
+  padding-bottom: 4rem;
+}
+
+a {
+  color: #353535;
+  text-decoration: none !important;
+}
+
+.card {
+  margin: 4rem;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+  transition: 1s;
+  text-decoration: none !important;
+  color: #353535 !important;
+  width: 20rem;
+}
+
+.card a {
+  text-decoration: none !important;
+  color: #353535 !important;
+}
+
+.Desativada {
+  filter: grayscale(1);
+}
+.card:hover {
+  transform: scale(1.1);
+}
+
+.loader {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: auto;
+  transform: translate(-50%, -50%);
+  width: 140px;
+}
+
+.nothing {
+  font-size: 1.2rem;
+  font-weight: 700;
+  visibility: hidden;
+  margin-top: 1.4rem;
+}
+
+.plane {
+  animation: spin 3s linear infinite;
+  fill: #0d6efd;
+  transform-origin: 50% 50%;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-360deg);
+  }
+}

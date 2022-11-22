@@ -1,0 +1,128 @@
+body {
+  background-image: url('/assets/imgs/linhasBack.png');
+}
+
+.boxRegister {
+  width: 100vw;
+  height: 100vh;
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
+
+.center {
+  margin-top: 1rem;
+}
+
+h1 {
+  font-family: 'Ubuntu', sans-serif !important;
+}
+
+.title-page {
+  font-family: 'Ubuntu', sans-serif !important;
+  font-weight: 500;
+}
+
+.boxInfos {
+  width: 60vw;
+  height: 95vh;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  padding: 5rem;
+  background-color: rgb(255, 255, 255, 0.8);
+  border-radius: 1rem;
+  box-shadow: 5px 5px 5px #aaaaaa;
+}
+
+.btn-primary {
+  background-color: #0d6efd !important;
+  color: white !important;
+  transform: 1s;
+  transition: 0.5s;
+  padding: 0.5rem 1.6rem !important;
+  font-weight: 700 !important;
+  border-radius: 5px;
+}
+
+.btn-secondary {
+  font-weight: 700 !important;
+  padding: 0.5rem 1.4rem !important;
+}
+
+.btn-primary:hover {
+  filter: brightness(1.1);
+  transition: 0.5s;
+}
+
+.titleInfos {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  text-align: center;
+}
+
+.col-md-4 {
+  flex: 0 0 auto;
+  width: 25% !important;
+}
+
+.box-file {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+  padding-top: 2rem;
+}
+
+.box-file h1 {
+  font-size: 1.5rem;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+input[type='file']::file-selector-button {
+  margin-right: 20px;
+  border: none;
+  background: #0d6efd;
+  padding: 10px 20px;
+  border-radius: 10px;
+  color: #fff;
+  cursor: pointer;
+  transition: background 0.2s ease-in-out;
+}
+
+input[type='file']::file-selector-button:hover {
+  background: #0d6efd;
+}
+
+.alert-box {
+    display: none;
+
+  background-color: #8ce393;
+  padding: 0.5rem;
+  width: 4rem;
+  border-radius: 5px;
+}
+
+.alert-message-success {
+
+  color: green;
+  margin: 0;
+  font-weight: 700;
+}
+
+.alert-box-error {
+  display: none;
+  background-color: #E34D4D;
+  padding: 0.5rem;
+  width: 4rem;
+  border-radius: 5px;
+}
+
+.alert-password-error, .alert-cpf-error, .alert-user-error {
+  display: none;
+  color: red;
+  margin: 0;
+  font-weight: 700;
+}

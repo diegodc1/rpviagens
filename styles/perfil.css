@@ -1,0 +1,150 @@
+body {
+  background: transparent;
+  background-image: url('/assets/imgs/linhasBack.png');
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-primary {
+  background-color: #0d6efd !important;
+  color: white !important;
+  transform: 1s;
+  transition: 0.5s;
+  padding: 0.5rem 1.9rem !important;
+  font-weight: 700 !important;
+  border-radius: 5px;
+}
+
+.submit-button {
+  background-color: #0d6efd !important;
+  color: white !important;
+  transform: 1s;
+  transition: 0.5s;
+  padding: 0.5rem 1.6rem !important;
+  font-weight: 700 !important;
+  border-radius: 5px;
+}
+
+.submit-button:hover {
+  filter: brightness(1.13);
+}
+
+.btn-primary:hover {
+  background-color: #0d6efd !important;
+  color: white !important;
+  transition: 0.5s;
+}
+
+.container {
+  background-color: none;
+}
+
+.rounded {
+  background-color: rgb(255, 255, 255, 0.8);
+}
+
+.bg-white {
+  background-color: rgb(255, 255, 255, 0.1) !important;
+}
+
+.form-control:focus {
+  box-shadow: none;
+  border-color: #ba68c8;
+}
+
+.profile-button {
+  background: rgb(99, 39, 120);
+  box-shadow: none;
+  border: none;
+}
+
+.profile-button:hover {
+  background: #682773;
+}
+
+.profile-button:focus {
+  background: #682773;
+  box-shadow: none;
+}
+
+.profile-button:active {
+  background: #682773;
+  box-shadow: none;
+}
+
+.back:hover {
+  color: #682773;
+  cursor: pointer;
+}
+
+.labels {
+  font-size: 1rem;
+  margin: 0 !important;
+}
+
+.add-experience:hover {
+  background: #ba68c8;
+  color: #fff;
+  cursor: pointer;
+  border: solid 1px #ba68c8;
+}
+
+.error-message {
+  color: #f63307;
+  font-weight: 600;
+  margin-top: 1rem;
+
+  visibility: hidden;
+}
+.error-message-pass {
+  color: #f63307;
+  font-weight: 600;
+
+  display: none;
+}
+.success-message-pass,
+.success-message-info {
+  color: #3b9e27;
+  font-weight: 600;
+
+  display: none;
+}
+
+.error-field-message {
+  color: #f63307;
+  font-weight: 600;
+  margin-top: 1rem;
+
+  display: none;
+}
+#inputTag {
+  display: none;
+}
+.imgPerfil {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 100%;
+  cursor: pointer;
+}
+.imgPerfil:hover {
+  transition: 0.5s;
+  filter: grayscale(100%);
+  transform: scale(1.1);
+}
+
+.alert-box {
+  display: none;
+
+  background-color: #8ce393;
+  padding: 0.5rem;
+  width: 50% !important;
+  border-radius: 5px;
+  margin-top: 3rem;
+}
+
+.alert-message-success {
+  color: green;
+  margin: 0;
+  font-weight: 700;
+}

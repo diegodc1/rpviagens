@@ -1,0 +1,83 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  padding: 2rem 2em 2rem 2rem;
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  background-image: url("/assets/imgs/linhasBack.png");
+
+}
+
+main {
+  background-color: rgb(255, 255, 255, 0.8);
+  box-shadow: 5px 5px 5px 5px #aaaaaa;
+  padding: 3rem 4rem;
+  width: 70%;
+  height: 90vh;
+}
+
+.table-select-users {
+  width: 100%;
+}
+
+.table-striped {
+  height: 10rem;
+}
+
+.iconsListUsers{
+  display: flex;
+  justify-content: center;
+}
+
+.title-list {
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+.check-box-user {
+  width: 1.3rem !important;
+  height: 1.3rem;;
+}
+
+.button-box {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.select-users-button {
+  border: none;
+  padding: 0.5rem 1.6rem;
+  background-color:  #0d6efd;
+  border-radius: 5px;
+  color: white;
+  font-weight: 700;
+  margin-top: 1rem; 
+}
+.td-phone {
+  width: 10rem;
+}
+.td-cargo {
+  width: 10%;
+}
+
+.td-setor {
+  width: 5%;
+}
+
+.td-unidade {
+  width: 5%;
+}
+
+.td-email {
+  width: 5%;
+}
+
+.td-nome {
+  width: 13%;
+}
+
+.td-select {
+  width: 2%;
+}

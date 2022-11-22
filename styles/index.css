@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+main {
+  width: 100vw;
+  max-width: 100vw;
+  height: 100vh;
+  max-height: 100vh;
+  display: grid;
+  grid-template-columns: 1.3fr 1.4fr;
+  align-items: center;
+  justify-content: center;
+}
+
+.box1 {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #F5F5F5;
+  color: white;
+  padding: 0rem 0rem 5rem 0rem
+}
+
+.box1 h1 {
+  font-size: 1.9rem;
+  font-weight: 700;
+}
+
+.box1 a {
+  text-decoration: none;
+  padding: 1rem;
+  background-color: #0652E9;
+  font-weight: 700;
+  border-radius: 15px;
+  color: white;
+  width: 10rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.5s;
+}
+
+.box1 img {
+  margin-bottom: 2rem;
+  width: 70%;
+}
+
+.box1 a:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+
+
+/******* BOX DE INPUTS  ********/
+.box2 {
+  width: 100%;
+  background-color: #0F1120;
+  height: 100%;
+  color: black;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.box2 h1 {
+  font-weight: 700;
+  color: white;
+  font-size: 1.9rem;
+  margin-bottom: 1.4rem;
+}
+
+
+.input-box-1,
+.input-box-2 {
+  background-color: #D1D1D1;
+  padding: 0rem 1rem;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+}
+
+form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 1.2rem
+}
+
+form i {
+  background-color: #D1D1D1;
+  font-size: 1.3rem;
+  position: relative;
+
+}
+
+form input {
+  border: none;
+  background-color: #D1D1D1;
+  padding: 0.8rem;
+  width: 22rem;
+  border-radius: 3px;
+  outline: none;
+}
+
+
+.submit-button {
+  width: 13rem;
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0652E9;
+  color: white;
+  padding: 0rem 4rem;
+  border-radius: 15px;
+  font-weight: 700;
+  transition: 0.5s;
+}
+
+.submit-button:hover {
+  transform: scale(1.03);
+  transition: 0.5s;
+  cursor: pointer;
+
+}
+
+.aviso {
+  margin: 0rem;
+  padding: 0rem;
+  color: red;
+  align-items: flex-start;
+  display: none;
+
+  font-weight: bold;
+  font-size: 0.9rem;
+
+}
+
+.messages {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  max-width: 100%;
+  align-items: center;
+}
+
+.messages a {
+  text-decoration: none;
+  font-size: 0.9rem;
+}
